@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+#app {
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 1.5rem 2rem;
+  background: white;
+  border: 2px solid black;
+}
+
+#app h1 {
+  margin: 0 0 0.25rem;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+#avg-text {
+  margin: 0 0 1rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.freelancer-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+.freelancer-table .header {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: white;
+  text-align: left;
+}
+
+.freelancer-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px dashed black;
+}
+
+.freelancer-table #table-body tr:nth-child(odd) {
+  background: lightgrey;
+}
